@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuromorphicism</title>
+    <link rel="icon" type="image/x-icon" href="./favicons/favicon-32x32.png">
+    <style>
+        @font-face {
+            font-family: rationale;
+            src: url(./fonts/rationale/Rationale-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: teko;
+            src: url(./fonts/Teko/Teko-VariableFont_wght.ttf);
+        }
+
+        html {
+            background: #000;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 98.5vh;
+
+            color: #eee;
+        }
+
+        .centered-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo-wrapper {
+            height: 400px;
+        }
+
+        .logo {
+            width: 300px;
+            height: auto;
+            margin-bottom: -34px;
+        }
+
+        .title {
+            font-family: rationale, sans-serif;
+            font-size: 40px;
+        }
+
+        .socials-text {
+            font-family: teko;
+            font-size: 24px;
+        }
+
+        .socials-row {
+            width: 300px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+
+            margin-bottom: 140px;
+        }
+
+        .socials-icon {
+            width: 50px;
+            height: 50px;
+        }
+
+        .x-icon {
+            filter: invert(0.9);
+            height: 46px;
+        }
+
+        .linkedin-icon {
+            filter: grayscale(0.95);
+
+            background-color: white;
+            border-color: transparent;
+            border-radius: 5px;
+        }
+
+        .facebook-icon {
+            filter: grayscale(0.9);
+        }
+
+        a:hover {
+            cursor: pointer;
+        }
+
+        footer {
+            font-family: teko;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="centered-wrapper logo-wrapper">
+            <img class="logo" src="neuromorphicism-logo.png" alt="Neuromorphicism logo">
+            <h1 class="title">Neuromorphicism</h1>
+        </div>
+        <div class="centered-wrapper">
+            <p class="socials-text">You can follow me on:</p>
+            <div class="socials-row">
+                <a href="https://www.x.com/neuromorphicism">
+                    <img class="socials-icon x-icon" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg" alt="Link to the Neuromorphicism profile on X aka Twitter">
+                </a>
+                <a href="https://www.linkedin.com/company/neuromorphicism">
+                    <img class="socials-icon linkedin-icon" src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Linkedin-logo-blue-In-square-40px.png" alt="Link to the Neuromorphicism profile on LinkedIn">
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61561899509232">
+                    <img class="socials-icon facebook-icon" src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Facebook_icon_2013.svg" alt="Link to the Neuromorphicism profile on Facebook">
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <span>This site does not collect personal data</span>
+    </footer>
+</body>
+</html>
